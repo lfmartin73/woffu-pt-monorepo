@@ -1,0 +1,30 @@
+body {
+  background-color: whitesmoke;
+}
+
+.navbar {
+  margin-bottom: 1em;
+}
+
+.spinner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#bet-admin nav {
+  background-color: gainsboro;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+#bet-admin tbody tr button {
+  visibility: hidden;
+}
+
+#bet-admin tbody tr:hover button {
+  visibility: visible;
+}
